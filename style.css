@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+    padding: 0;}
+
+
+
+
+
+
+body {
+	background-image:url("https://upload.wikimedia.org/wikipedia/commons/f/ff/Panoramic_Boston.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+
+
+
+
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+h2 {
+	margin-top:50px; 
+	margin-bottom: 50px;
+
+}
+
+h3 {
+	margin-top: 50;
+	margin-bottom: 50px; 
+	font-size: 25px ;
+
+}
+
+
+
+
+div.drop { 
+	/*background: black ;*/ 
+	width: 100%; 
+	height:200px;
+	/*background-color: blue;*/
+	margin-bottom: 50px;
+}
+
+
+
+
+li {
+	display: inline-block;
+	color: white ;
+	margin-left: 50px ;
+}
+
+div.content{
+	display: none;
+	background-color: white;
+	width: 50%;
+	height: 50%;
+	position: absolute ;
+	top:50%;
+	left: 10%;
+}
+
+var.btn{
+size: 90px;
+}

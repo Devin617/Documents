@@ -1,0 +1,104 @@
+<html>
+ 
+ 
+ <head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body background ="https://upload.wikimedia.org/wikipedia/commons/f/ff/Panoramic_Boston.jpg">
+	<h1 id="website-title">Boston Sounds</h1>
+	<h2>Most Recent Drops</h2>
+	   <ul>
+          
+      	    <li class= "drop" id="mostrecent">
+      	
+      		<a href="https://spinrilla.com/mixtapes/trizzy-stacks-flexgang-out-the-mud" target="blank"  data-preview="Up an coming" > <img src="https://dpjsgvx0fhwmn.cloudfront.net/albums/30877/thumb/61f992843772e6bc7134.png?1452101552" width="150" height="150" ></a> <br>Trizzy Stacks</li>
+      	    
+      	   <li> <a href="https://soundcloud.com/hazytherelief/drill-time-g-mix" target="blank"> <img src="https://pbs.twimg.com/profile_images/690312912028733440/jOrGWx2f.jpg"  width="150px" height="150px"> </a> <br>Hazy TheRelief </li>
+
+      		<li> <a href="https://www.youtube.com/watch?v=GEURkSq9ffE" target="blank"> <img src="http://youtuberappers.com/wp-content/uploads/2016/01/johnny-may-cash-ft-jblack-yb-par-1.jpg" width="150" height="150"></a> <br>JBlackTheGreat </li> 
+ 
+
+      		
+      	</ul>
+
+     <h3> Most Liked </h3> 	 
+       <ul>
+      	
+      	 <li class="drop" id="mostliked">
+      	
+      		<a href="https://soundcloud.com/95-music/sets/b2r-project" target="blank"> <img src= "https://i1.sndcdn.com/artworks-000146553332-7uhw57-t500x500.jpg" width="150" height="150"></a> <br> 9Five </li>
+
+      	 <li><a href="https://soundcloud.com/bookfleecokain/fleecokain-x-jblack-the-great-greasecokain" target="blank"><img src="https://i1.sndcdn.com/artworks-000142245134-4bscv5-t500x500.jpg" width="150" height="150"></a> <br> JBlack ft FleeCokain </li>
+
+      	 <li><a href="https://www.youtube.com/watch?v=X2tYhPUo6L8" target="blank"><img src="http://3.bp.blogspot.com/-egYSOqekJig/UcHP4hucLrI/AAAAAAAABJw/znFN_cHdmok/s1600/Smoke+Bulga+Donn+Lennon+In+the+bean+Masspike+miles+slee.jpg" width="150" height="150" ></a> <br> Masspike Miles </li>
+
+
+    
+
+
+
+
+
+
+
+
+
+      	<div class="drop" id="musicupload">
+      	
+      		<!-- <div class="track"></div>
+      		<div></div>
+      		<div></div> -->
+
+      	</div>
+
+      </li>
+	  
+
+<div class="content" id="trizzy">Young up an Coming Energetic Young Male who has the passion for music</div>
+
+
+<script type="text/javascript">
+
+   			var btn= document.createElement("button");
+   			var t= document.createTextNode("Upload Work");
+   			btn.appendChild(t) ;
+   			document.body.appendChild(btn);
+
+$(document).ready(function(){
+ $("a").mouseenter(function(){
+	var textNode = document.createTextNode($(this).data("preview"));
+   	var ptag =	document.createElement("p");
+   	ptag.appendChild(textNode);
+
+ 	$(this).append(ptag);
+	console.log($(this).data("preview"));
+});
+
+ $("a").mouseleave(function(){
+ 	 $(this).children("p").remove() ;
+
+ })
+
+});
+
+
+
+     
+
+</script>
+
+
+
+	
+	
+
+
+
+
+  </body>
+</html>
+
+
+
