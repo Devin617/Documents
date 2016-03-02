@@ -1,0 +1,122 @@
+<html>
+ 
+ 
+ <head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+
+</head>
+  <body background="http://www.climateride.org/images/blog_images/2788839653_707a38d920_z.jpg">
+	
+	<h1 id="website-title">Boston Sounds</h1>
+	<h2> MOST RECENT DROPS </h2>
+	  <div class="container">
+	    <ul>
+          
+      	    <li class= "drop" id="mostrecent">
+      	
+      		<a href="https://spinrilla.com/mixtapes/trizzy-stacks-flexgang-out-the-mud" target="blank"  data-preview="Young up an Coming Energetic Young Male who has the passion for Music an Fashion" > <img src="https://dpjsgvx0fhwmn.cloudfront.net/albums/30877/thumb/61f992843772e6bc7134.png?1452101552" width="200" height="200" ></a> <br> TRIZZY STACKS</li>
+      	    
+      	   <li> <a href="https://soundcloud.com/hazytherelief/drill-time-g-mix" target="blank" data-preview= "Born an Raised in Dorchester Hazy depicts his trials an tribulations through his love for music" > <img src="https://pbs.twimg.com/profile_images/690312912028733440/jOrGWx2f.jpg"  width="200px" height="200px"> </a> <br> HAZY THERELIEF </li>
+
+      		<li> <a href="https://www.youtube.com/watch?v=GEURkSq9ffE" target="blank" data-preview= "Roxbury Born an Raised Academy homes to be specific" > <img src="http://youtuberappers.com/wp-content/uploads/2016/01/johnny-may-cash-ft-jblack-yb-par-1.jpg" width="200" height="200"></a> <br> JBLACKTHEGREAT </li> 
+ 
+
+      		
+      	</ul>
+         
+     <h3> MOST LIKED </h3> 	 
+       <ul>
+      	
+      	 <li class="drop" id="mostliked">
+      	
+      		<a href="https://soundcloud.com/95-music/sets/b2r-project" target="blank" data-preview="South End born an Raised , Lenox Projects, Turning Dreams to Reality"> <img src= "https://i1.sndcdn.com/artworks-000146553332-7uhw57-t500x500.jpg" width="200" height="200"></a> <br> 9FIVE </li>
+
+      	 <li><a href="https://soundcloud.com/bookfleecokain/fleecokain-x-jblack-the-great-greasecokain" target="blank" data-preview=" Flee has been making music for years with a passion for local collabortives! " ><img src="https://i1.sndcdn.com/artworks-000142245134-4bscv5-t500x500.jpg" width="200" height="200"></a> <br> JBLACK FT FLEECOKAIN</li>
+
+      	 <li><a href="https://www.youtube.com/watch?v=X2tYhPUo6L8" target="blank" data-preview="Don Lennon aka Smoke Bulga Orchaested a city collab. Has a deal with Sony(Epic)" ><img src="http://3.bp.blogspot.com/-egYSOqekJig/UcHP4hucLrI/AAAAAAAABJw/znFN_cHdmok/s1600/a city Smoke+Bulga+Donn+Lennon+In+the+bean+Masspike+miles+slee.jpg" width="200" height="200" ></a> <br> SMOKE BULGA </li>
+
+
+    
+
+
+
+
+
+
+
+
+
+      	<div class="drop" id="musicupload">
+      	
+      		<!-- <div class="track"></div>
+      		<div></div>
+      		<div></div> -->
+
+      	</div>
+
+      </li>
+	  
+
+<div class="content" id="trizzy"></div>
+
+<div class="content" id="hazy">filler</div>
+
+<div class="content" id="jblack">roxbury born an raised</div>
+
+<div class="content" id="9Five">filller2</div>
+
+<div class="content" id="Jblack">filler3</div>
+
+<div class="content" id="Masspike Miles">filler4</div>
+
+
+
+
+
+
+<script type="text/javascript">
+
+   			var btn= document.createElement("button");
+   			var t= document.createTextNode("Upload Work");
+   			btn.appendChild(t) ;
+   			document.body.appendChild(btn);
+
+$(document).ready(function(){
+ $("a").mouseenter(function(){
+	var textNode = document.createTextNode($(this).data("preview"));
+   	var ptag =	document.createElement("p");
+   	ptag.appendChild(textNode);
+
+ 	$(this).append(ptag);
+	console.log($(this).data("preview"));
+});
+
+ $("a").mouseleave(function(){
+ 	 $(this).children("p").remove() ;
+
+ })
+
+});
+
+
+
+     
+
+</script>
+
+
+
+	
+	
+
+
+</div>
+
+  </body>
+</html>
+
+
+
